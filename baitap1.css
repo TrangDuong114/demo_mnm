@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nd{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.nd .block{
+    display: block;
+    background-color: blueviolet;
+    height: 50px;
+    width: 190px;
+    margin: 50px auto;
+}
+.nd h2{
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+.nd h2 strong{
+    color: blue;
+}
+.nd p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.btn li{
+    display: inline;
+    margin: 0px 12px;
+    
+}
+.btn li a {
+    background-color: #2d3032;
+    border-radius: 4px; /*dùng để bo góc*/
+    color: #fff;
+    display:inline-block;
+    height: 56px;
+    line-height: 56px;
+    min-width:  170px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    margin: auto 0;
+}
+.btn li a:hover{
+    background-color: aquamarine;
+    border: 2px solid red; /* border dùng để tạo viền  
+    công thức chung: border: with style color*/
+}
+

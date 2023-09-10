@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: f8f8f8;
+    color: #1c1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a {
+    color: #555;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: 0.3s color; /*ko hiểu*/
+    /*box-shadow: 5px 10px 15px -2px  #1c1b1b; */
+    /*5px, 10px là bắt buộc định vị vị trí nằm ngang hay dọc của bòng
+    15px là độ mờ của bóng
+    -2px là độ lan rộng của bóng */
+
+}
+a:hover{
+    color: aqua;
+    height: 50px;
+    box-shadow: -5px -5px 15px gainsboro;
+}
+/*layout*/
+.td {
+    margin: 30px auto;
+    width: 1130px;
+}
+.td h2 {
+    font-size: 32px;
+    font-weight: 550;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/*dòng kẻ dưới của h2*/
+.td h2::after{/*:after thêm nội dung ngay sau thẻ h2*/
+    background-color: #339999;
+    content: "";
+    display: block;
+    height: 2.5px;
+    margin: 11px auto 30px;
+    position: relative;
+    width: 90px;
+}
+.td .tab{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.td .tab li{
+    display: inline;
+    margin-right: 20px;
+   
+}
+.td .anh {
+    padding: 10px;
+    background-color: #fff;
+}
+.td .anh li{
+    float: left;
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: auto;
+
+}
+.td .anh li a :hover {
+    border: 2px solid #339999;
+    
+}
